@@ -10,10 +10,10 @@ CREATE TABLE smartphone -- создание таблички smartphone
 	-- Здесь идут столбцы нашей таблицы 
     -- имя_столбца тип_данных ограничения 
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, -- столбец id - первичный ключ 
-    model VARCHAR(30) NOT NULL, -- строчка на 30 символов
-    manufacturer VARCHAR(30), -- строчка на 30 символов для Почты
-    prduct_count INT, -- в конце точка с запятой НЕ ставится
-    price INT
+    model VARCHAR(30) NOT NULL, -- строчка на 30 символов для модели
+    manufacturer VARCHAR(30), -- строчка на 30 символов для Производителя
+    prduct_count INT, -- целочисленная переменная для количества товаров
+    price INT -- целочисленная переменная для стоимости
 );
 -- Заполнение таблицы какими-то данными
 -- INSERT table_name(column1, column2)
