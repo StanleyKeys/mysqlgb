@@ -2,10 +2,10 @@
 CREATE DATABASE homework01; -- Создали БД
 
 -- Подключение к БД 
-USE homework01; -- Мы рабоатем в lesson1
+USE homework01; -- Мы рабоатем в homework01
 
 -- Создание таблицы
-CREATE TABLE smartphone -- создание таблички stundent
+CREATE TABLE smartphone -- создание таблички smartphone
 (
 	-- Здесь идут столбцы нашей таблицы 
     -- имя_столбца тип_данных ограничения 
